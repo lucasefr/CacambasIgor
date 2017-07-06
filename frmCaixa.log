@@ -1,0 +1,4 @@
+Line 19: Class MSFlexGridLib.MSFlexGrid of control flxPedidoLocacaoSemCaixa was not a loaded control class.
+Line 92: Class MSFlexGridLib.MSFlexGrid of control flxPedidoLocacaoCaixa was not a loaded control class.
+Line 164: Class MSMask.MaskEdBox of control mskValorCaixa was not a loaded control class.
+Line 175: Class MSMask.MaskEdBox of control mskDataCaixa was not a loaded control class.

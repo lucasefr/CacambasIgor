@@ -1,0 +1,4 @@
+[oledb]
+; Everything after this line is an OLE DB initstring
+Provider=MSDASQL;Driver=MySQL ODBC 5.1 Driver;server=localhost;uid=root;pwd=hamatullametal;database=cacambas;port=3306
+

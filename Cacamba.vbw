@@ -1,0 +1,13 @@
+frmClienteCadastro = 50, 50, 830, 501, , 25, 25, 904, 460, C
+FuncoesGerais = 100, 100, 880, 551, 
+frmPesquisa = 200, 200, 980, 651, , 175, 175, 1022, 626, C
+frmUsuarios = 125, 125, 917, 576, , 100, 100, 892, 551, C
+frmSplash = 100, 100, 892, 551, , 75, 75, 867, 526, C
+WINCACAMBA = 75, 75, 867, 526, 
+frmCacambas = 150, 150, 942, 601, , 125, 125, 917, 576, C
+frmPedidoLocacao = 75, 75, 943, 526, , 50, 50, 918, 501, C
+frmCacambaCadasto = 0, 0, 868, 451, , 75, 75, 943, 526, C
+frmClientePesquisa = 75, 75, 876, 526, , 100, 100, 968, 551, C
+frmCacambaGerenciamento = 125, 125, 945, 576, , 100, 100, 968, 551, C
+frmPedidoLocacaoGerenciamento = 50, 50, 871, 501, , 25, 25, 846, 476, C
+frmCaixa = 175, 175, 1030, 626, , 200, 200, 1122, 651, C

@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=Standard Setup Cacambas
+
+
+[Package|Standard Setup Cacambas|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Igor\Instalador win32
+
+[Package|Standard Setup Cacambas|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Cacambas|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Cacambas|Files Found]
+
+[Package|Standard Setup Cacambas|Files Released]
+
+[Package|Standard Setup Cacambas|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\System\ado\msado26.tlb=
+
+[Package|Standard Setup Cacambas|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSCAL.OCX=
+
+[Package|Standard Setup Cacambas|Files Added]
+
+[Package|Standard Setup Cacambas|Files Removed]
+
+[Package|Standard Setup Cacambas|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado26.tlb=Yes
+C:\Windows\SysWOW64\MSFLXGRD.OCX=Yes
+C:\Windows\SysWOW64\MSMASK32.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Users\Igor Nunes\Desktop\Versão Cacambas\Cacamba.exe=Yes
+
+[Package|Standard Setup Cacambas|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Cacambas|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Cacambas|Install Locations]
+C:\Igor\Programa Caçambas\Cacamba\Versao\Cacamba.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\System\ado\msado26.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSFLXGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSMASK32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCAL.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Igor\Igor\Programa Caçambas\Cacamba\Versao\Cacamba.exe=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Users\Igor Nunes\Desktop\Versão Cacambas\Cacamba.exe=$(AppPath)
+
+[Package|Standard Setup Cacambas|Configure Shared Files]
+Applicable=Yes
+C:\Igor\Programa Caçambas\Cacamba\Versao\Cacamba.exe=Yes
+C:\Igor\Igor\Programa Caçambas\Cacamba\Versao\Cacamba.exe=No
+C:\Users\Igor Nunes\Desktop\Versão Cacambas\Cacamba.exe=Yes
+
+[Package|Standard Setup Cacambas|Distribution]
+Type=single
+Size=
+Title=Cacamba
+
+[Package|Standard Setup Cacambas|Package]
+PackageFolder=C:\Igor\Instalador win32
+ProjectFolder=C:\Igor\Igor\Programa Caçambas\Cacamba
+ServerSideCab=
+File1=C:\Igor\Instalador win32\setup.exe
+File2=C:\Igor\Instalador win32\Setup.Lst
+File3=C:\Igor\Instalador win32\Cacamba.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Cacambas|IconGroups]
+Group0=Cacamba
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Cacambas|Cacamba]
+Icon1=Cacamba.exe
+Title1=Cacamba
+StartIn1=$(AppPath)
+Key1=Icon1
